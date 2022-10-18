@@ -1,0 +1,44 @@
+
+body {
+    background-color: #121212;
+}
+
+
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    }
+     
+    li{
+    float:left
+    }
+     
+     
+    a:link, a:visited{
+    display:block;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color: #303f9f;
+    width:250px;
+    text-align:center;
+    padding:4px;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 24px;
+   font-weight: 600;
+   opacity: 87%; 
+    }
+     
+    a:hover, a:active{
+    background-color: #00af89;
+    
+    }
+
+    a:hover {
+        text-decoration:underline;
+        text-decoration-color: white;  
+    }

@@ -1,0 +1,83 @@
+body {
+    background-color: #121212 ;
+}
+
+#Nav li { display:block; float:left; 
+    font-family: "Poppins", arial, sans-serif;
+    letter-spacing:1px; 
+     width:160px;
+     height: 30px;
+    text-align:center;
+    padding:4px;
+    
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 12px;
+   font-weight: 600;
+   opacity: 87%; 
+   text-shadow: 0 -1px 3px #aaabb6;
+   
+    
+    
+   background:  linear-gradient( #000000, #434343);
+
+   /* Other gradients
+    
+     background:  linear-gradient(to right, #000000, #434343);
+    background:  linear-gradient( #c33764, #1d2671);
+    background: linear-gradient( #6441a5, #2a0845);
+    */
+}
+
+/* Sets the state when hovering, except for the last item in the list*/
+#Nav li:not(:last-child):hover {
+    -moz-box-shadow: inset 0 0 10px 5px  #66fcf1;
+    -webkit-box-shadow: inset 0 0 10px 5px #66fcf1;
+    box-shadow: inset 0 0 10px 5px  #66fcf1;
+
+/* Another hover effect
+    -moz-box-shadow: inset 0 0 12px 12px  black;
+    -webkit-box-shadow: inset 0 0 12px 12px black;
+    box-shadow: inset 0 0 12px 12px black;
+    */
+}
+
+
+
+#Nav li a { color:white; text-decoration:none; text-align:center; display:block; line-height:34px; outline:none; }
+
+/* Styling of the search field */
+#Nav form input { width:76px; height:21px; margin-left:9px; margin-top:8px; border:none; padding-left:28px; padding-right:10px; color:black;
+
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    vertical-align:middle; margin-top:5px; margin-left: -5px;
+    background-image: url("../images/magnifier.svg"), -webkit-gradient(linear, left bottom, left top, color-stop(0,  #d3d3d3), color-stop(0.5,  #d3d3d3), color-stop(0.51,  #d3d3d3), color-stop(1,  #d3d3d3));
+   background-repeat: no-repeat;
+    
+}
+
+/* Logo box*/
+#Nav li:first-child {
+    width: 100px;
+    height: 30px;
+    
+}
+
+/* Logo img*/
+#Nav li:first-child a img {
+   vertical-align:middle; margin-top:-11px;
+}
+ /* src box */
+#Nav li:last-child {
+    -moz-border-radius:0 4px 4px 0;
+    -webkit-border-radius:0 4px 4px 0;
+    border-radius:0 4px 4px 0;
+    border-right:none;
+    width:124px;
+    height: 30px;
+}
+
+
+

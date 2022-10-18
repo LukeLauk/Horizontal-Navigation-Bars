@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+  background-color: #121212;
+  
+}
+
+#Nav ul  {
+ 
+} 
+
+#Nav li { display:inline; float:left; 
+  
+  letter-spacing:1px; 
+   width:120px;
+   height: 30px;
+  text-align:center;
+  background: transparent;
+  text-decoration: none;
+  font-size: 24px;
+ padding: 0 2px;
+ font-weight: 600;
+ opacity: 87%; 
+ font-family: 'PT Serif', serif;
+ position: relative;
+left: 30%;
+transform: translate(50%, 50%)
+
+
+    
+}
+
+/* Sets the state when hovering*/
+#Nav li:hover {
+  opacity: 125%;
+}
+
+
+
+#Nav li a { color:white; text-decoration:none; text-align:center; display:inline-block; line-height:34px; outline:none;  }
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  
+}
+
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  
+  
+}
+
+
+
+.dropdown .dropbtn {
+  
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin-top: 1.5px;
+  
+  margin-right: 2px;
+  margin-left: 2px;
+  
+  
+}
+
+
+
+.dropdown-content {
+  display: none;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 18px;  
+
+}
+
+.dropdown-content a:hover {
+  background-color: transparent;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
